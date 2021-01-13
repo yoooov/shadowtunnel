@@ -85,13 +85,13 @@ if we have a vps, IP is 2.2.2.2
 firstly, we start a http proxy on 2.2.2.2.    
 download http proxy program, execute below on line command on vps with root：
 
-wget https://github.com/snail007/goproxy/releases/download/v4.9/proxy-linux-amd64.tar.gz && tar zxfv proxy-linux-amd64.tar.gz && rm proxy-linux-amd64.tar.gz && mv proxy /usr/bin/ && proxy http -p 127.0.0.1:38080 &
+wget https://github.com/yoooov/goproxy6.9/releases/download/v4.9/proxy-linux-amd64.tar.gz && tar zxfv proxy-linux-amd64.tar.gz && rm proxy-linux-amd64.tar.gz && mv proxy /usr/bin/ && proxy http -p 127.0.0.1:38080 &
 
 2.Start a tunnel on VPS
 
 download shadowtunnel program, execute below on line command on vps with root：
 
-wget https://github.com/snail007/shadowtunnel/releases/download/v1.1/shadowtunnel-linux-amd64.tar.gz && tar zxfv shadowtunnel-linux-amd64.tar.gz && rm shadowtunnel-linux-amd64.tar.gz && mv shadowtunnel /usr/bin/
+wget https://github.com/yoooov/shadowtunnel/releases/download/v1.1/shadowtunnel-linux-amd64.tar.gz && tar zxfv shadowtunnel-linux-amd64.tar.gz && rm shadowtunnel-linux-amd64.tar.gz && mv shadowtunnel /usr/bin/
 
 start a tunnel on vps listening on :50000 and forward to 127.0.0.1:38080 ：
 
@@ -121,13 +121,13 @@ if we have a vps, IP is 2.2.2.2.
 firstly, we start a http proxy on 2.2.2.2.    
 download http proxy program, execute below on line command on vps with root：
 
-`wget https://github.com/snail007/goproxy/releases/download/v4.9/proxy-linux-amd64.tar.gz && tar zxfv proxy-linux-amd64.tar.gz && rm proxy-linux-amd64.tar.gz && mv proxy /usr/bin/ && proxy http -p 127.0.0.1:38080 &`
+`wget https://github.com/yoooov/goproxy6.9/releases/download/v4.9/proxy-linux-amd64.tar.gz && tar zxfv proxy-linux-amd64.tar.gz && rm proxy-linux-amd64.tar.gz && mv proxy /usr/bin/ && proxy http -p 127.0.0.1:38080 &`
 
 2.start a tunnel on vps
 
 download shadowtunnel program, execute below on line command on vps with root：
 
-`wget https://github.com/snail007/shadowtunnel/releases/download/v1.1/shadowtunnel-linux-amd64.tar.gz && tar zxfv shadowtunnel-linux-amd64.tar.gz && rm shadowtunnel-linux-amd64.tar.gz && mv shadowtunnel /usr/bin/`
+`wget https://github.com/yoooov/shadowtunnel/releases/download/v1.1/shadowtunnel-linux-amd64.tar.gz && tar zxfv shadowtunnel-linux-amd64.tar.gz && rm shadowtunnel-linux-amd64.tar.gz && mv shadowtunnel /usr/bin/`
 
 start a tunnel on vps listening on udp :50000 and forward to tcp 127.0.0.1:38080 ：
 
