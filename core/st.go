@@ -27,14 +27,14 @@ import (
 	"github.com/gobwas/glob"
 	"github.com/miekg/dns"
 	gocache "github.com/pmylund/go-cache"
-	clienttransport "github.com/snail007/proxy/core/cs/client"
-	srvtransport "github.com/snail007/proxy/core/cs/server"
-	tou "github.com/snail007/proxy/core/dst"
-	encryptconn "github.com/snail007/proxy/core/lib/transport/encrypt"
-	utils "github.com/snail007/proxy/utils"
-	jumper "github.com/snail007/proxy/utils/jumper"
-	lbx "github.com/snail007/proxy/utils/lb"
-	redirx "github.com/snail007/shadowtunnel/redir"
+	clienttransport "github.com/yoooov/goproxy6.9/core/cs/client"
+	srvtransport "github.com/yoooov/goproxy6.9/core/cs/server"
+	tou "github.com/yoooov/goproxy6.9/core/dst"
+	encryptconn "github.com/yoooov/goproxy6.9/core/lib/transport/encrypt"
+	utils "github.com/yoooov/goproxy6.9/utils"
+	jumper "github.com/yoooov/goproxy6.9/utils/jumper"
+	lbx "github.com/yoooov/goproxy6.9/utils/lb"
+	redirx "github.com/yoooov/shadowtunnel/redir"
 )
 
 const (
