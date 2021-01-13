@@ -2,7 +2,7 @@
 VERSION=$(cat ../VERSION)
 VER="${VERSION}_$(date '+%Y%m%d%H%M%S')"
 X="-X github.com/yoooov/shadowtunnel/core.VERSION=$VER"
-TRIMPATH1="${GOPATH}/src/github.com/snail007"
+TRIMPATH1="${GOPATH}/src/github.com/yoooov"
 TRIMPATH=$(dirname ~/go-workspace/src/github.com/yoooov)/yoooov
 if [ -d "$TRIMPATH1" ];then
 	TRIMPATH=$TRIMPATH1
